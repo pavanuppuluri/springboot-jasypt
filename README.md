@@ -7,7 +7,7 @@ In dev environment, we can simply store the password (though this is also not co
 spring.datasource.password=Welcome
 
 But in UAT and Prod environments, we can't do that as it can be exploited.
-Then what is the way to secure this sensitive information?
+Then **what is the way to secure this sensitive information?**
 
 One way is to use Jasypt.
 Using Jasypt we can encrypt the sensitive information like database passwords using Secret Key
