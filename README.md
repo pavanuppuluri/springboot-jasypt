@@ -30,11 +30,12 @@ For this, add a parameter when starting the Java program: -Djasypt.encryptor.pas
 In application.properties we stored below information for demo purpose
 
 **db.unsecurepassword**=Welcome!23
+
 **db.securepassword**=**ENC**(CBeERvkAJMT/DpvacDGCudKQNiEIfOC+)
 
 Now anybody who has access to this properties file can find out the value of property db.unsecurepassword
 But the value of db.securepassword is stored in encrypted format which can be decrypted using the Secret Key.
-Point here is, we are **NOT storing** the Secret Key in application.properties file. We are passing it while launching the application.
+Point here is, we are **NOT storing the Secret Key in application.properties** file. We are passing it while launching the application.
 This way we are making our sensitive information secure.
 
 Happy Coding!!!
