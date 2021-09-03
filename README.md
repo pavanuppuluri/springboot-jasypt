@@ -1,4 +1,5 @@
-Securing configurations using Spring Boot Jasypt Integration
+**Securing configurations using Spring Boot Jasypt Integration**
+
 In most of the spring boot application we do have sensitive information (Ex. database passwords) to store in application.properties
 This information is required for the application to connect to database and for other validation purposes
 
